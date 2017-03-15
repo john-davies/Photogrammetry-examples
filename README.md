@@ -42,6 +42,6 @@ _but this may be overwritten by the .cfg file in the each model's subdirectory_
 
 ##### Church Ramsau
 
-* Location - Evangelischen Pfarrgemeinde, Ramsau am Dachstein, Austria
-* Camera - Nikon D3100
+* **Location** - Evangelischen Pfarrgemeinde, Ramsau am Dachstein, Austria
+* **Camera** - Nikon D3100
 * **Comment** - The glass in the window is not broken, it's just gaps in the mesh.
