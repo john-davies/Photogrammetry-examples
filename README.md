@@ -17,12 +17,17 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 * **clear_project.sh** - clears any calculation data and restores a blank set of directories
 
 _Note: default configuration is:_
-* _MVG - describerPreset=HIGH_
-* _MVE - filterWidth=11_
+* _MVG - describerPreset=NORMAL_
+* _MVE - filterWidth=7, componentSize=1000_
 
 _but this may be overwritten by the .cfg file in the each model's subdirectory_
 
 ### Details of each directory
+
+##### Stone Mask
+
+* **Location** - Stone mask on my neighbour's wall
+* **Camera** - Canon IXUS 70
 
 ##### St_Mary_Warwick
 

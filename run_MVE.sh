@@ -28,6 +28,8 @@ MVE_meshclean_path=/home/john/projects/mve/apps/meshclean
 # Default settings:
 #Option for dmrecon
 filterWidth=7
+#Option for meshclean
+componentSize=1000
 
 # Check for a config override file
 if [ -f ${model_name}.cfg ]
@@ -57,5 +59,5 @@ ${MVE_fssrecon_path}/fssrecon SfM/reconstruction/dense/MVE/OUTPUT.ply SfM/recons
 
 echo "********************************************************************" >> $log_file
 echo `date "+%H:%M:%S"` ": meshclean" >> $log_file
-echo "${MVE_meshclean_path}/meshclean SfM/reconstruction/dense/MVE/OUTPUT_MESH.ply SfM/reconstruction/dense/MVE/OUTPUT_MESH_CLEAN.ply" >> $log_file
-${MVE_meshclean_path}/meshclean SfM/reconstruction/dense/MVE/OUTPUT_MESH.ply SfM/reconstruction/dense/MVE/OUTPUT_MESH_CLEAN.ply
+echo "${MVE_meshclean_path}/meshclean -c ${componentSize} SfM/reconstruction/dense/MVE/OUTPUT_MESH.ply SfM/reconstruction/dense/MVE/OUTPUT_MESH_CLEAN.ply" >> $log_file
+${MVE_meshclean_path}/meshclean  -c ${componentSize} SfM/reconstruction/dense/MVE/OUTPUT_MESH.ply SfM/reconstruction/dense/MVE/OUTPUT_MESH_CLEAN.ply
