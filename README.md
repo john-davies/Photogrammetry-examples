@@ -4,6 +4,12 @@
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License</a>.](http://creativecommons.org/licenses/by-sa/4.0/)
 
+### Links
+
+* Related posts on my blog - https://theretiredengineer.wordpress.com/category/photogrammetry/
+* Online viewer for some of the models below - http://thereteng.appspot.com/photogrammetry.html
+
+
 ### Tools used
 
 * [openMVG](https://github.com/openMVG/openMVG) - open Multiple View Geometry library
