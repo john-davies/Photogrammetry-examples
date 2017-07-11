@@ -34,25 +34,12 @@ _but this may be overwritten by the .cfg file in the each model's subdirectory_
 
 * **Location** - Stone mask on my neighbour's wall
 * **Camera** - Canon IXUS 70
+* **Web link** - http://thereteng.appspot.com/stone_mask_dense.html
 
-##### St_Mary_Warwick
+##### Gorsedd Stone
 
-* **Location** - St Mary's Church, Warwick, UK
+* **Location** - The stone circle erected for the 1962 National Eisteddfod in the grounds of Parc Howard, Llanelli, Wales. See http://www.megalithic.co.uk/article.php?sid=36840 for details. The stone is the leftmost in the image on that page.
 * **Camera** - Canon IXUS 70
-* **Comment** - Probably not quite enough images, some more at either end of the arc would be useful
-
-##### St_Michaels_Budbrooke_1
-
-* **Location** - St Michael's Church, Budbrooke, Warwick, UK
-* **Camera** - Canon IXUS 70
-
-##### St_Michaels_Budbrooke_2
-
-* **Location** - St Michael's Church, Budbrooke, Warwick, UK
-* **Camera** - Canon IXUS 70
-
-##### Church Ramsau
-
-* **Location** - Evangelischen Pfarrgemeinde, Ramsau am Dachstein, Austria
-* **Camera** - Nikon D3100
-* **Comment** - The glass in the window is not broken, it's just gaps in the mesh.
+* **Comment** - Extraneous details edited out of the dense reconstruction using Meshlab. Sparse reconstruction left unchanged.
+* **Web link (compressed version)** - http://thereteng.appspot.com/gorsedd_stone_dense_comp.html
+* **Web link (uncompressed version)** - http://thereteng.appspot.com/gorsedd_stone_dense.html
