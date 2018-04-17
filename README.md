@@ -43,3 +43,12 @@ _but this may be overwritten by the .cfg file in the each model's subdirectory_
 * **Comment** - Extraneous details edited out of the dense reconstruction using Meshlab. Sparse reconstruction left unchanged.
 * **Web link (compressed version)** - http://thereteng.appspot.com/gorsedd_stone_dense_comp.html
 * **Web link (uncompressed version)** - http://thereteng.appspot.com/gorsedd_stone_dense.html
+
+##### Fox
+
+* **Location** - A small stone fox model belonging to my wife
+* **Camera** - Nikon D3100
+* **Comment** - Extraneous details edited out of the dense reconstruction using Meshlab. Sparse reconstruction left unchanged.
+* **Web links**
+    * Blog post on how the model was created - https://theretiredengineer.wordpress.com/2018/01/07/photogrammetry-using-a-turntable/
+    * Software to process the model for 3D printing - https://github.com/john-davies/lidar-ply
