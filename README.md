@@ -52,3 +52,13 @@ _but this may be overwritten by the .cfg file in the each model's subdirectory_
 * **Web links**
     * Blog post on how the model was created - https://theretiredengineer.wordpress.com/2018/01/07/photogrammetry-using-a-turntable/
     * Software to process the model for 3D printing - https://github.com/john-davies/lidar-ply
+    * **Web link (compressed version)** - http://thereteng.appspot.com/fox.html
+
+##### Cottage
+
+* **Location** - A small plaster model of a cottage
+* **Camera** - Nikon D3100
+* **Comment** - Extraneous details edited out of the dense reconstruction using Meshlab. Sparse reconstruction left unchanged.
+* **Web links**
+    * Blog post on how the model was created - TBD
+    * **Web link (compressed version)** - http://thereteng.appspot.com/cottage.html
