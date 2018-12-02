@@ -25,7 +25,7 @@ openMVG_path=/home/john/projects/openMVG_Build/Linux-x86_64-RELEASE
 
 # Default settings:
 #Option for openMVG_main_ComputeFeatures
-describerPreset=NORMAL
+describerPreset=HIGH
 # option for reconstruction file extension
 recon_ext=bin
 
@@ -43,8 +43,8 @@ echo "recon_ext: $recon_ext" >> $log_file
 
 echo "********************************************************************" >> $log_file
 echo `date "+%H:%M:%S"` ": openMVG_main_SfMInit_ImageListing" >> $log_file
-echo "${openMVG_path}/openMVG_main_SfMInit_ImageListing -i images -o SfM/matches -d ${camera_DB_path}/sensor_width_camera_database.txt" >> $log_file
-${openMVG_path}/openMVG_main_SfMInit_ImageListing -i images -o SfM/matches -d ${camera_DB_path}/sensor_width_camera_database.txt
+echo "${openMVG_path}/openMVG_main_SfMInit_ImageListing -i `pwd`/images -o SfM/matches -d ${camera_DB_path}/sensor_width_camera_database.txt" >> $log_file
+${openMVG_path}/openMVG_main_SfMInit_ImageListing -i `pwd`/images -o SfM/matches -d ${camera_DB_path}/sensor_width_camera_database.txt
 
 echo "********************************************************************" >> $log_file
 echo `date "+%H:%M:%S"` ": openMVG_main_ComputeFeatures" >> $log_file
@@ -70,3 +70,6 @@ echo "********************************************************************" >> $
 echo `date "+%H:%M:%S"` ": openMVG_main_openMVG2MVE2" >> $log_file
 echo "${openMVG_path}/openMVG_main_openMVG2MVE2 -i SfM/reconstruction/global/sfm_data.${recon_ext} -o SfM/reconstruction/dense" >> $log_file
 ${openMVG_path}/openMVG_main_openMVG2MVE2 -i SfM/reconstruction/global/sfm_data.${recon_ext} -o SfM/reconstruction/dense
+
+echo "********************************************************************" >> $log_file
+echo `date "+%H:%M:%S"` ": End" >> $log_file

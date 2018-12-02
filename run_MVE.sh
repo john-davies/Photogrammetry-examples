@@ -61,3 +61,6 @@ echo "********************************************************************" >> $
 echo `date "+%H:%M:%S"` ": meshclean" >> $log_file
 echo "${MVE_meshclean_path}/meshclean -c ${componentSize} SfM/reconstruction/dense/MVE/OUTPUT_MESH.ply SfM/reconstruction/dense/MVE/OUTPUT_MESH_CLEAN.ply" >> $log_file
 ${MVE_meshclean_path}/meshclean  -c ${componentSize} SfM/reconstruction/dense/MVE/OUTPUT_MESH.ply SfM/reconstruction/dense/MVE/OUTPUT_MESH_CLEAN.ply
+
+echo "********************************************************************" >> $log_file
+echo `date "+%H:%M:%S"` ": End" >> $log_file

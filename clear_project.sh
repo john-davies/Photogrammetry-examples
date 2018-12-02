@@ -21,4 +21,6 @@ projectPath=`pwd`
 rm ${projectPath}/SfM/matches/*
 rm ${projectPath}/SfM/reconstruction/global/*
 rmdir ${projectPath}/SfM/reconstruction/global
-rm -r ${projectPath}/SfM/reconstruction/dense/*
+rm -r ${projectPath}/SfM/reconstruction/dense/MVE
+rm ${projectPath}/SfM/reconstruction/dense/MVS/*
+rm ${projectPath}/SfM/reconstruction/dense/MVS/images/*

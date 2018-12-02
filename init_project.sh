@@ -22,3 +22,6 @@ mkdir ${projectPath}/SfM
 mkdir ${projectPath}/SfM/matches
 mkdir ${projectPath}/SfM/reconstruction
 mkdir ${projectPath}/SfM/reconstruction/dense
+mkdir ${projectPath}/SfM/reconstruction/dense/MVS
+mkdir ${projectPath}/SfM/reconstruction/dense/MVS/images
+

@@ -14,17 +14,20 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 * [openMVG](https://github.com/openMVG/openMVG) - open Multiple View Geometry library
 * [mve](https://github.com/simonfuhrmann/mve) - Multi-View Environment
+* [mvs](https://github.com/cdcseacave/openMVS) - open Multi-View Stereo reconstruction library
 
 ### Scripts
 
 * **init_project.sh** - sets up the directory structures to run the rest of the scripts
 * **run_MVG.sh** - script to run openMVG, run it from the top level of the model directory, after init_project.sh
 * **run_MVE.sh** - script to run MVE, run it from the top level of the model directory, after run_MVG.sh
+* **run_MVS.sh** - script to run MVS, run it from the top level of the model directory, after run_MVG.sh
 * **clear_project.sh** - clears any calculation data and restores a blank set of directories
 
 _Note: default configuration is:_
-* _MVG - describerPreset=NORMAL_
+* _MVG - describerPreset=HIGH_
 * _MVE - filterWidth=7, componentSize=1000_
+* _MVS - no configuration_
 
 _but this may be overwritten by the .cfg file in the each model's subdirectory_
 
@@ -60,5 +63,14 @@ _but this may be overwritten by the .cfg file in the each model's subdirectory_
 * **Camera** - Nikon D3100
 * **Comment** - Extraneous details edited out of the dense reconstruction using Meshlab. Sparse reconstruction left unchanged.
 * **Web links**
-    * Blog post on how the model was created - TBD
+    * Blog post on how the model was created - https://theretiredengineer.wordpress.com/2018/08/19/model-house-photogrammetry/
     * **Web link (compressed version)** - http://thereteng.appspot.com/cottage.html
+
+##### Pear
+
+* **Location** - A full 360&deg; model of a pear
+* **Camera** - Nikon D3100
+* **Comment** - Extraneous details edited out of the dense reconstruction and number of verticies reduced using Quadratic Edge Decimation in Meshlab. Sparse reconstruction left unchanged.
+* **Web links**
+    * Blog post on how the model was created - TBD
+    * **Web link (compressed version)** - http://thereteng.appspot.com/pear.html
