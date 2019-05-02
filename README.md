@@ -44,8 +44,7 @@ _but this may be overwritten by the .cfg file in the each model's subdirectory_
 * **Location** - The stone circle erected for the 1962 National Eisteddfod in the grounds of Parc Howard, Llanelli, Wales. See http://www.megalithic.co.uk/article.php?sid=36840 for details. The stone is the leftmost in the image on that page.
 * **Camera** - Canon IXUS 70
 * **Comment** - Extraneous details edited out of the dense reconstruction using Meshlab. Sparse reconstruction left unchanged.
-* **Web link (compressed version)** - http://thereteng.appspot.com/gorsedd_stone_dense_comp.html
-* **Web link (uncompressed version)** - http://thereteng.appspot.com/gorsedd_stone_dense.html
+* Sketchfab model - https://sketchfab.com/3d-models/gorsedd-stone-bc05d14bda0d45c1a58a1d2254a3fb69
 
 ##### Fox
 
@@ -55,7 +54,7 @@ _but this may be overwritten by the .cfg file in the each model's subdirectory_
 * **Web links**
     * Blog post on how the model was created - https://theretiredengineer.wordpress.com/2018/01/07/photogrammetry-using-a-turntable/
     * Software to process the model for 3D printing - https://github.com/john-davies/lidar-ply
-    * **Web link (compressed version)** - http://thereteng.appspot.com/fox.html
+    * Sketchfab model - https://sketchfab.com/3d-models/fox-0522a77b85654c61b27128fedfdbb582
 
 ##### Cottage
 
@@ -64,7 +63,7 @@ _but this may be overwritten by the .cfg file in the each model's subdirectory_
 * **Comment** - Extraneous details edited out of the dense reconstruction using Meshlab. Sparse reconstruction left unchanged.
 * **Web links**
     * Blog post on how the model was created - https://theretiredengineer.wordpress.com/2018/08/19/model-house-photogrammetry/
-    * **Web link (compressed version)** - http://thereteng.appspot.com/cottage.html
+    * Sketchfab model - https://sketchfab.com/3d-models/model-cottage-e379cffc16704d6c9701f0cd4417cdec
 
 ##### Pear
 
@@ -72,5 +71,14 @@ _but this may be overwritten by the .cfg file in the each model's subdirectory_
 * **Camera** - Nikon D3100
 * **Comment** - Extraneous details edited out of the dense reconstruction and number of verticies reduced using Quadratic Edge Decimation in Meshlab. Sparse reconstruction left unchanged.
 * **Web links**
+    * Blog post on how the model was created - https://theretiredengineer.wordpress.com/2018/12/16/full-object-photogrammetry/
+    * Sketchfab model - https://sketchfab.com/3d-models/pear-6cebf458de3c49ffab3bd78dca6a4c85
+
+##### Hedgehog
+
+* **Location** - A small plaster model of a hedgehog
+* **Camera** - Nikon D3100
+* **Comment** - Extraneous details edited out of the dense reconstruction and number of verticies reduced using Quadratic Edge Decimation in Meshlab. Sparse reconstruction left unchanged.
+* **Web links**
     * Blog post on how the model was created - TBD
-    * **Web link (compressed version)** - http://thereteng.appspot.com/pear.html
+    * Sketchfab model - https://sketchfab.com/3d-models/hedgehog-660641108abb49e3af3ef4addadfbbf9
