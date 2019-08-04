@@ -24,6 +24,9 @@ openMVG_path=/home/john/projects/openMVG_Build/Linux-x86_64-RELEASE
 openMVS_path=/home/john/projects/openMVS_build/bin
 
 # Default settings:
+densifyreslevel=1
+min_pt_dist=2.5
+texturereslevel=0
 
 # Check for a config override file
 if [ -f ${model_name}.cfg ]
@@ -44,18 +47,18 @@ ${openMVG_path}/openMVG_main_openMVG2openMVS -i ../../../../SfM/reconstruction/g
 
 echo "********************************************************************" >> $log_file
 echo `date "+%H:%M:%S"` ": DensifyPointCloud" >> $log_file
-echo "${openMVS_path}/DensifyPointCloud scene.mvs" >> $log_file
-${openMVS_path}/DensifyPointCloud scene.mvs
+echo "${openMVS_path}/DensifyPointCloud --resolution-level ${densifyreslevel} scene.mvs" >> $log_file
+${openMVS_path}/DensifyPointCloud --resolution-level ${densifyreslevel} scene.mvs
 
 echo "********************************************************************" >> $log_file
 echo `date "+%H:%M:%S"` ": ReconstructMesh" >> $log_file
-echo "${openMVS_path}/scene_dense.mvs" >> $log_file
-${openMVS_path}/ReconstructMesh scene_dense.mvs
+echo "${openMVS_path}/ReconstructMesh --min-point-distance ${min_pt_dist} scene_dense.mvs" >> $log_file
+${openMVS_path}/ReconstructMesh --min-point-distance ${min_pt_dist} scene_dense.mvs
 
 echo "********************************************************************" >> $log_file
 echo `date "+%H:%M:%S"` ": TextureMesh" >> $log_file
-echo "${openMVS_path}/TextureMesh scene_dense_mesh.mvs" >> $log_file
-${openMVS_path}/TextureMesh scene_dense_mesh.mvs
+echo "${openMVS_path}/TextureMesh scene_dense_mesh.mvs" --resolution-level ${texturereslevel} >> $log_file
+${openMVS_path}/TextureMesh --resolution-level ${texturereslevel} scene_dense_mesh.mvs
 
 cd ../../../..
 

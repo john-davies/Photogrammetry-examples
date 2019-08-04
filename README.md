@@ -8,6 +8,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 * Related posts on my blog - https://theretiredengineer.wordpress.com/category/photogrammetry/
 * Online viewer for some of the models below - http://thereteng.appspot.com/photogrammetry.html
+* Sketchfab page - https://sketchfab.com/johndavies
 
 
 ### Tools used
@@ -27,7 +28,10 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 _Note: default configuration is:_
 * _MVG - describerPreset=HIGH_
 * _MVE - filterWidth=7, componentSize=1000_
-* _MVS - no configuration_
+* _MVS_
+    * _DensifyPointCloud --resolution-level=1_
+    * _ReconstructMesh --min-point-distance=2.5_
+    * _TextureMesh --resolution-level=1_
 
 _but this may be overwritten by the .cfg file in the each model's subdirectory_
 
